@@ -25,7 +25,7 @@ a:hover {
 }
 
 li {
-  padding: 50px 20px;
+  padding: 50px 10px;
 }
 .logo img{
   width: 100px;
@@ -116,11 +116,12 @@ ul li a {
   }
 
   ul{
-    padding-left: 0%;
+    padding-left: 0;
   }
   
   ul li {
     padding-left: 1px;
+    /* margin: auto; */
   }
 
   header{
