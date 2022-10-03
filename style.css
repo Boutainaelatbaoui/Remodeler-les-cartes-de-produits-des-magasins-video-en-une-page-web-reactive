@@ -111,7 +111,8 @@ ul li a {
   .logo {
       position: relative;
       top: 5px;
-      left: 45%;
+      left: 40%;
+      display: block;
   }
 
   ul{
@@ -119,11 +120,11 @@ ul li a {
   }
   
   ul li {
-    padding-left: 2px;
+    padding-left: 1px;
   }
 
   header{
-      display: inline-block;
+      display: block;
       height: auto;
   }
 
@@ -135,6 +136,7 @@ ul li a {
   section{
     width:100%;
   }
+
   .product {
       width:95%;
       height: auto;
