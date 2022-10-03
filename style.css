@@ -50,7 +50,7 @@ nav {
 }
 .product {
   border: 1px solid black;
-  width: 20%;
+  width: calc(25% - 10px);
   height: auto;
   margin: 0px 10px ;
 }
@@ -111,16 +111,24 @@ ul li a {
   .logo {
       position: relative;
       top: 5px;
-      left: 40%;
+      left: 45%;
+  }
+
+  ul{
+    padding-left: 0%;
   }
   
+  ul li {
+    padding-left: 2px;
+  }
+
   header{
       display: inline-block;
       height: auto;
   }
 
   .products {
-      display:inline-block;
+      display:block;
       width:100%;
   }
 
